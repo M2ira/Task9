@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(images/WhatsApp\ Image\ 2024-10-16\ at\ 9.33.40\ PM.jpeg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+    font-family: 'Arial', sans-serif;
+}
+
+h1{
+
+    margin-left: 10%;
+    color: white;
+
+}
+
+.hed {
+
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 1px;
+}
+a:hover{
+
+    color: orange;
+
+}
+
+.contact-info p{
+    color: antiquewhite;
+}
+.contact-info a{
+    font-size: 21px;
+}
+
+
+.content{
+
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sec{
+
+    text-align: center;
+    margin: 13%;
+}
+
+.hove{
+
+    margin: 30px;
+    padding: 10px;
+    background-color: transparent; 
+    border: none; 
+    color: white;
+    font-weight:bold; 
+
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    
+}
+
+.hove:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: orange;
+}
+
+
+footer {
+    
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    
+}
+.line{
+
+    color: white;
+    margin-left: 60px;
+}
+
+.fot{
+
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.social-links{
+
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
